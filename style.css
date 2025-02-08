@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+.head{
+    background-color: #0057B7;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: fixed;
+}
+.sidebar {
+    position: relative;
+    min-height: 500px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: fixed;
+    }
+@media (min-width: 768px) {
+    .sidebar {
+        border-radius: 4px;
+        width: 20%;
+        float: left;
+        background-color: #f1f1f1;
+        max-width: 100%
+    }
+   .main{
+    width: 80%;
+    float: left;
+   }
+}
+.main{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+div.box{
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px #000000;
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-bottom-right-radius: 2em;
+    padding-left: 0.5em;
+    padding-right: 1em;
+    float: left;
+    width: 80%;
+    height: 50px;
+}
+body {
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    font-family: Verdana, sans-serif;
+    width: 99%;
+}
+div.main article {
+    width: 95%;
+    font-size: 120%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-right: 2.5em;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+nav{
+  padding: 50px;
+}
+li{
+   list-style-type: none;
+   text-align: center;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
